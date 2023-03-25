@@ -6,5 +6,6 @@
 *Description: header contains prototypes for all files in this project
 */
 int _isupper(int c);
+int _isdigit(int c);
 
 #endif
