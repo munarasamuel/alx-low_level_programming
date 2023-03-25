@@ -7,7 +7,7 @@
   *Return: on screen 1.
   *On error, return -1 and errno is set appropriately.
   */
-int -putchar(c)
+int _putchar(char c)
 {
 	return (write(1, $c, 1));
 }
